@@ -9,7 +9,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
-public class RuleTest {
+public class  RuleTest {
 	
 	@Rule //classe temporária, criada antes da execuçao do teste
 	public TemporaryFolder tmpFolder = new TemporaryFolder();
